@@ -1,15 +1,6 @@
 # Clean Docker
 
-This repository contains a simple Bash script that automates the cleanup of unused Docker resources, including images, networks, and volumes, on remote application servers. The script is designed to be executed from a Jenkins job, where you can specify the IP addresses of the target servers using a choice parameter.
-
-Automated Docker Resource Cleanup, addressing the common challenge of managing unused Docker resources across multiple remote servers. By simplifying the process of removing redundant images, networks, and volumes, this script enhances system efficiency and resource utilization. With its straightforward implementation and seamless integration with Jenkins, it ensures a streamlined approach to maintaining Docker environments.
-
-
-
-
-
-
-
+This repository contains a simple Bash script that automates the cleanup of unused Docker resources, including images, networks, and volumes, on multiple application servers. With its straightforward implementation and seamless integration with Jenkins, it ensures a streamlined approach to maintaining Docker environments.
 
 ## Prerequisites
 
