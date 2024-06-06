@@ -1,6 +1,9 @@
 ``bash
 #!/bin/bash
 
+#Display disk usage for Docker
+docker system df -h
+
 # Remove unused Docker images
 echo "Removing unused Docker images..."
 docker image prune -a --force || echo "Error: Failed to remove unused Docker images."
@@ -17,4 +20,7 @@ docker volume prune --force || echo "Error: Failed to remove unused Docker volum
 echo ""--------------------------------""
 
 echo "Docker cleanup completed!"
+
+#Display disk usage for Docker
+docker system df -h
 ```
