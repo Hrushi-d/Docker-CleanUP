@@ -1,4 +1,4 @@
-# Clean Docker
+# Docker CleanUP
 
 This repository contains a simple Bash script that automates the cleanup of unused Docker resources, including images, networks, and volumes, on multiple application servers. With its straightforward implementation and seamless integration with Jenkins, it ensures a streamlined approach to maintaining Docker environments.
 
